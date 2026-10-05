@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+i {
+    display: none !important;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/sectionone");
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionOne img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionOne .scOneTxt {
+    width: 869px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.sectionOne .scOneTxt h1 {
+    font-size: 72px;
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    width: 720px;
+    text-align: center;
+}
+
+.sectionOne .scOneTxt p {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    color: white;
+    font-weight: 500;
+    width: 709px;
+    text-align: center;
+}
+
+.scOneTxt button {
+    width: 166.28px;
+    height: 48.8px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+
+}
+
+.scTwoText {
+    height: 250px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h2Main {
+    font-size: 48px;
+    font-family: serif;
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    gap: 50px;
+
+}
+
+.p2Main {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    color: white;
+    width: 612px;
+    text-align: center;
+}
+
+
+.scTwoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 110vh;
+    flex-wrap: wrap;
+}
+
+.animalsCard {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("img/fishes");
+    width: 361.2px;
+    height: 557.2px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.animalsCard h3 {
+    color: white;
+    font-size: 30px;
+    font-family: "Playfair Display", sans-serif;
+    width: 300.2px;
+    padding-bottom: 50px;
+}
+
+.animalsCard:nth-of-type(2) {
+    background-image: url("img/monkeys");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.animalsCard:nth-of-type(3) {
+    background-image: url("img/ktnkl");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* .sectionThree .scThreeText {} */
+
+nav i {
+    color: white;
+}
+
+@media(max-width:600px) {
+    nav ul {
+        display: none;
+    }
+
+    i {
+        display: block !important;
+    }
+}
+
+
+
+.sectionThree {
+    height: 721px;
+    background-image: url("img/elephants");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.scThreeText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 849px;
+    height: 356px;
+    gap: 20px;
+}
+
+.scThreeText .h2Main {
+    width: 770px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.scThreeText .p2Main {
+    width: 770px;
+
+}
+
+.sectionFour {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scFourText {
+    height: 410px;
+    width: 927px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.scFourText h2 {
+    color: white;
+    font-size: 48px;
+    width: 807px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+.scFourText p {
+    color: white;
+    font-size: 16px;
+    width: 807px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8;
+}
+
+.sectionFive {
+    background-image: url("img/horses");
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionSix {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.imgBox {
+    background-image: url("img/penguin");
+    background-color: lime;
+    width: 556.2px;
+    height: 418.2px;
+}
+
+.imgBox:nth-last-of-type(1) {
+    background-image: url("img/meduza");
+}
+
+.scSevenTxt {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.scSevenTxt h2 {
+    color: white;
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+.scSevenTxt p {
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    width: 1021px;
+    text-align: center;
+}
+
+.scSevenImg {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.scSevenImgBox {
+    background-image: url("img/natura");
+    width: 277.9px;
+    height: 253px;
+}
+
+.scSevenImgBox:nth-last-of-type(3) {
+    background-image: url("img/elephant");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scSevenImgBox:nth-last-of-type(2) {
+    background-image: url("img/monkey");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scSevenImgBox:nth-last-of-type(1) {
+    background-image: url("img/owl");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    height: 98.4px;
+}
+
+
+footer p {
+    color: white;
+}
+
+@media(max-width:742px) {
+    .sectionOne .scOneTxt h1 {
+        font-size: 28px;
+        color: white;
+        font-family: "Playfair Display", sans-serif;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .sectionOne .scOneTxt p {
+        font-size: 15px;
+        font-family: Raleway, sans-serif;
+        color: white;
+        font-weight: 500;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .sectionOne {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(img/sectionone);
+        width: 100%;
+        height: 51vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .scOneTxt button {
+        width: 95.28px;
+        height: 35.8px;
+        border: none;
+        border-radius: 30px;
+        font-size: 13px;
+        font-family: Raleway, sans-serif;
+    }
+
+    .h2Main {
+        font-size: 29px;
+        font-family: serif;
+        font-family: "Playfair Display", sans-serif;
+        color: white;
+        gap: 50px;
+    }
+
+    .animalsCard h3 {
+        color: white;
+        font-size: 21px;
+        font-family: "Playfair Display", sans-serif;
+        width: fit-content;
+        padding-bottom: 50px;
+    }
+
+    .p2Main {
+        font-size: 16px;
+        font-family: Raleway, sans-serif;
+        color: white;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .animalsCard {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(img/fishes);
+        width: 335.2px;
+        height: 383.2px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .scTwoBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: fit-content;
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+
+    .sectionThree {
+        height: fit-content;
+    }
+
+    .sectionThree {
+        height: fit-content;
+        background-image: url(img/elephants);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+    }
+
+    .scTwoBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .scThreeText .h2Main {
+        width: fit-content;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .scThreeText .p2Main {
+        width: fit-content;
+        font-size: 11px;
+    }
+
+    .scFourText h2 {
+        color: white;
+        font-size: 25px;
+        width: fit-content;
+        text-align: center;
+        font-family: "Playfair Display", sans-serif;
+    }
+
+    .scFourText p {
+        color: white;
+        font-size: 12px;
+        width: fit-content;
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        line-height: 1.8;
+    }
+
+    .sectionSix {
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .scSevenTxt h2 {
+        color: white;
+        font-size: 25px;
+        font-family: "Playfair Display", sans-serif;
+    }
+
+    .scSevenTxt p {
+        color: white;
+        font-family: Raleway, sans-serif;
+        font-size: 11px;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .animalsCard {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(img/fishes);
+        width: fit-content;
+        height: 383.2px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .scSevenTxt h2 {
+        color: white;
+        font-size: 25px;
+        font-family: "Playfair Display", sans-serif;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:1150px) {
+    .scTwoBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:500px) {}
